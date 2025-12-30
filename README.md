@@ -25,3 +25,4 @@ Run python Uns_uptrain.py for unsupervised training.
 Run python Semi_train.py for semi-supervised training.
 
 
+# XMorpher-registration
