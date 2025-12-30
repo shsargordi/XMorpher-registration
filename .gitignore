@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.venv/
+venv/
+.env
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Logs / runs
+logs/
+runs/
+tensorboard/
+
+# OS/editor
+.DS_Store
+.vscode/
+
+# Large artifacts (add/remove as needed)
+*.pt
+*.pth
+*.ckpt
+*.zip
+*.tar.gz
+

@@ -1,0 +1,20 @@
+name: XMorpher-reg
+channels:
+  - conda-forge
+  - pytorch
+  - nvidia
+dependencies:
+  - python=3.11
+  - pytorch=2.0
+  - pytorch-cuda=11.8
+  - pip:
+      - neptune
+      - simpleitk
+      - scipy
+      - matplotlib
+      - nibabel
+      - torchmetrics  
+      - ipykerne
+      - timm
+      - einops
+
