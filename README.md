@@ -14,6 +14,9 @@ find /path/to/miniconda3/envs/XMorpher-Reg/bin
 
 # Data organization
 The data organization example is shown below: 
+
+
+
 ![alt text](image.png)
 
 The folders train_labeled_unlabeled and train_unlabeled_unlabeled are used for training, and the data in the test folder is used for testing.
