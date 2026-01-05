@@ -21,11 +21,11 @@ The data organization example is shown below:
 
 The folders train_labeled_unlabeled and train_unlabeled_unlabeled are used for training, and the data in the test folder is used for testing.
 
-To prepare the dataset, follow the instructions in Prepare-Data/preprocessing.ipynb.
+# How to prepare the dataset, 
+Follow the instructions in Prepare-Data/preprocessing.ipynb.
 
 # Run the script
-Run python Uns_uptrain.py for unsupervised training.
+Run python Unsup_train.py for unsupervised training.
 Run python Semi_train.py for semi-supervised training.
 
 
-# XMorpher-registration
