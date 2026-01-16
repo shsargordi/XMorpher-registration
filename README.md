@@ -31,3 +31,11 @@ Run python Unsup_train.py for unsupervised training.
 Run python Semi_train.py for semi-supervised training.
 
 
+## Results overview
+
+![alt text](Cardiac-HNC.png)
+
+**Figure.** **Left:** Quantitative and qualitative results (cardiac CT with labels) after our preprocessing pipeline, including affine registration and deformable registration using **XMorpher** (unsupervised and semi-supervised). **Right:** Qualitative **XMorpher** results on our head-and-neck cancer (HNC) CT–CBCT paired dataset from **CHUM Hospital**. *Note:* The HNC preprocessing is performed differently and is available in a separate repository named **VoxelMorph**.
+
+
+
