@@ -1,4 +1,4 @@
-# XMorpher deformable registration between cardiac CT scans. CT pairs must undergo affine registration before deformable registration.
+# XMorpher deformable registration between cardiac CT scans. CT pairs must undergo affine registration before deformable registration (a necessary step before deformable).
 
 
 
