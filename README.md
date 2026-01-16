@@ -22,25 +22,20 @@ The data organization example is shown below:
 The folders train_labeled_unlabeled and train_unlabeled_unlabeled are used for training, and the data in the test folder is used for testing.
 
 # How to prepare the dataset:
-Follow the instructions in `Prepare-Data/preprocessing.ipynb`, which include data cropping, normalization, resampling, affine registration, Dice score calculation, and data visualization.
+Follow the instructions in `Prepare-Data/preprocessing.ipynb`, which include data cropping, normalization, resampling, affine registration, Dice score calculation, and data/results visualization.
 
 
 # Run the script
 Run python Unsup_train.py for unsupervised training.
-<<<<<<< HEAD
+
 
 Run python Semi_train.py for semi-supervised training.
-
 
 ## Results overview
 
 ![alt text](Cardiac-HNC.png)
 
-**Figure.** **Left:** Quantitative and qualitative results (cardiac CT with labels) after our preprocessing pipeline, including affine registration and deformable registration using **XMorpher** (unsupervised and semi-supervised). **Right:** Qualitative **XMorpher** results on our head-and-neck cancer (HNC) CT–CBCT paired dataset from **CHUM Hospital**. *Note:* The HNC preprocessing is performed differently and is available in a separate repository named **VoxelMorph**.
+**Figure.** **Left:** Quantitative and qualitative results (cardiac CT with labels) after our preprocessing pipeline, including affine registration and deformable registration using **XMorpher** (unsupervised and semi-supervised). 
 
+**Right:** Qualitative **XMorpher** results on our head-and-neck cancer (HNC) CT–CBCT paired dataset from **CHUM Hospital**. *Note:* The HNC preprocessing is performed differently and is available in a separate repository named **VoxelMorph**.
 
-
-=======
-
-Run python Semi_train.py for semi-supervised training.
->>>>>>> a72bd14 (Update README)
