@@ -27,6 +27,7 @@ Follow the instructions in `Prepare-Data/preprocessing.ipynb`, which include dat
 
 # Run the script
 Run python Unsup_train.py for unsupervised training.
+<<<<<<< HEAD
 
 Run python Semi_train.py for semi-supervised training.
 
@@ -39,3 +40,7 @@ Run python Semi_train.py for semi-supervised training.
 
 
 
+=======
+
+Run python Semi_train.py for semi-supervised training.
+>>>>>>> a72bd14 (Update README)
