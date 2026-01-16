@@ -22,7 +22,8 @@ The data organization example is shown below:
 The folders train_labeled_unlabeled and train_unlabeled_unlabeled are used for training, and the data in the test folder is used for testing.
 
 # How to prepare the dataset:
-Follow the instructions in Prepare-Data/preprocessing.ipynb.
+Follow the instructions in `Prepare-Data/preprocessing.ipynb`, which include data cropping, normalization, resampling, affine registration, Dice score calculation, and data visualization.
+
 
 # Run the script
 Run python Unsup_train.py for unsupervised training.
